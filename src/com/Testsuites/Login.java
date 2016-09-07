@@ -26,7 +26,7 @@ public class Login {
 	/*
 	 * Verify data when Home page loaded
 	 */
-//	@Test(priority =0)
+	@Test(priority =0)
 	public void FirstLoad(){
 		try{		
 			WebElement txtMenuHome = driver.findElement(By.xpath(".//*[@id='top']/div[1]/div/div/div[2]/ul/li[1]/a"));			
